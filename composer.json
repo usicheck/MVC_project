@@ -1,0 +1,28 @@
+{
+    "name": "vendor/autoload",
+    "description": "des",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Config\\": "Config/",
+            "Core\\": "Core/"
+        },
+        "files": [
+            "Config/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "usicheck",
+            "email": "usicheck@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "larapack/dd": "dev-master",
+        "vlucas/phpdotenv": "5.4.x-dev",
+      "ext-pdo": "*"
+    }
+}
